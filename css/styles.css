@@ -1,1 +1,95 @@
+ a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+ }
+/* NAVBAR */
+.navbar{
+  background: #878787;
+  border-radius: 0;
+  border: 3px solid black;
+  padding: 20px 0px 20px 35px;
+}
+.navbar-brand{
+  color: black;
+  font-weight: bold;
+  font-family: Signika Negative;
+  font-size: 3em;
+  letter-spacing: 1px;
+  width: 214px;
+}
+.navbar-brand:hover{
+  color: white;
+}
+/*DROP DOWN MENU*/
+.drop-menu{
+}
+.control {
+  visibility: hidden;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.lable{
+  text-align: center;
+  line-height: 45px;
+  float: right;
+  background: #878787;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#toggle:checked ~ .control {
 
+  visibility: visible;
+  width: 100%;
+  height: 125px;
+  transition: height 1.5s;
+}
+.hidden{
+    position: absolute;
+    left: -100vw;
+}
+.menu-item{
+  font-family: Signika Negative;
+  font-size: 20px;
+  width: 100%;
+  margin: 5px 0px 5px -10px;
+  text-align: center;
+}
+.menu-item:hover{
+  color: white;
+  font-size: 25px;
+}
+.line{
+  border-color: black;
+  border-width: 2px;
+  margin: 0;
+}
+/* MAIN CONTENT */
+h1{
+  font-family: Signika Negative;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.icon-bar{
+  border: 1px solid black;
+}
+.item-container{
+  background: #878787;
+  border-radius: 5px;
+  margin: 0 auto 30px;
+  width: 95%;
+  padding: 10px 20px 10px 20px;
+}
+.item-description{
+  font-family: Signika Negative;
+  font-size: 20px;
+}
+.item-name{
+  font-family: Signika Negative;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
